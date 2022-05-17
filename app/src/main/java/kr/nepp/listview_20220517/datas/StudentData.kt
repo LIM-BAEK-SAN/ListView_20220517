@@ -1,6 +1,6 @@
 package kr.nepp.listview_20220517.datas
 
-class studentData(
+class StudentData(
     val name: String,
     val birthYear:Int,
     val address:String) {
