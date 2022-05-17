@@ -39,7 +39,7 @@ class StudentAdapter(val mContext: Context,
 //        실제 연결
         txtName.text = data.name
         txtName.text = data.address
-        txtAge.text = "${2022 - data.birthYear + 1}세"
+        txtAge.text = "${data.getKoreanAge()}세"
 
 //        만들어진 row의 그림이 리스트뷰에 뿌려짐.
 
